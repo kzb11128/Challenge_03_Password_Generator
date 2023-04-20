@@ -64,7 +64,7 @@ function writePassword() {
       chosenChars += specialChar[index];
     }
 
-    // Change chosenChars from a string to an array
+    // Change chosenChars from a string to an array.
     var chosenCharsArray = chosenChars.split("") 
 
     console.log(chosenCharsArray);
